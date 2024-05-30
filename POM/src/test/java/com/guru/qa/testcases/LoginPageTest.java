@@ -36,7 +36,7 @@ public class LoginPageTest extends testbase{
 		
 	}
 	@AfterMethod
-	public void tearDown() {
+	public void closeBrowser() {
 		driver.quit();
 	}
 }
