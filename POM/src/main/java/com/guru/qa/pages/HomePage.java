@@ -1,5 +1,7 @@
 package com.guru.qa.pages;
 
-public class HomePage {
+import com.guru.qa.base.testbase;
+
+public class HomePage extends testbase{
 
 }
