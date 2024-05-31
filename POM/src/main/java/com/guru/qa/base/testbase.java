@@ -18,7 +18,7 @@ public class testbase {
 		try {
 		 prop=new Properties();
 
-			FileInputStream ip=new FileInputStream("C:\\Users\\srika\\.eclipse\\POM\\src\\main\\java\\com\\guru\\qa\\config\\config.properties");
+			FileInputStream ip=new FileInputStream("C:\\Users\\srika\\git\\Page-Object-Model\\POM\\src\\main\\java\\com\\guru\\qa\\config\\config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block

@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.guru.qa.testcases.LoginPageTest">
+      <class name="com.guru.qa.testcases.HomePageTest">
         <methods>
-          <include name="setUp"/>
-          <include name="loginToApp"/>
+          <include name="closeAll"/>
           <include name="validateTitle"/>
-          <include name="tearDown"/>
-          <include name="validateLogo"/>
+          <include name="setUp"/>
+          <include name="clickNewCust"/>
         </methods>
-      </class> <!-- com.guru.qa.testcases.LoginPageTest -->
+      </class> <!-- com.guru.qa.testcases.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
